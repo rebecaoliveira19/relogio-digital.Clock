@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white
+
+}
+span{
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#hours{
+    box-shadow: 0 0 15px 5px rgb(27, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+#min {
+    box-shadow: 0 0 15px 5px rgb(228, 27, 255);
+    background-color: rgb(4, 4, 10);
+}
+#sec {
+    box-shadow: 0 0 15px 5px rgb(255, 27, 27);
+    background-color: rgb(4, 4, 10);
+}
